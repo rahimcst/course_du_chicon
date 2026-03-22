@@ -18,8 +18,8 @@ class Mail {
         $this->mail->Host = 'smtp-relay.brevo.com'; 
         $this->mail->SMTPAuth = true;
         $this->mail->AuthType = 'LOGIN';
-        $this->mail->Username = '8689b6003@smtp-brevo.com'; 
-        $this->mail->Password = 'xsmtpsib-e9781b7f1c373c142cb4bff3958f235368c4cfb132a43bd4cc86a2ad400f7678-SN01gMnQ6JmBIzdO'; // Clé API Brevo
+        $this->mail->Username = ''; 
+        $this->mail->Password = ''; // Clé API Brevo
         $this->mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $this->mail->Port = 587;
         $this->mail->CharSet = 'UTF-8';
