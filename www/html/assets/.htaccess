@@ -1,0 +1,8 @@
+# Interdire tout accès par défaut
+Order deny,allow
+Deny from all
+
+# Autoriser seulement certains types de fichiers
+<FilesMatch "\.(css|js|png|jpg)$">
+    Allow from all
+</FilesMatch>

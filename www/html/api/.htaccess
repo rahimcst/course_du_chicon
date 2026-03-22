@@ -1,0 +1,6 @@
+# Autoriser SEULEMENT certaines IP, tout le reste est bloqué
+<RequireAll>
+    Require ip 172.16.69.244 172.16.69.245 172.16.69.243 127.0.0.1
+    # Ajoute autant d'IP ou de plages que nécessaire (par exemple ton lycée)
+</RequireAll>
+Require all denied

@@ -1,0 +1,2 @@
+# Bloque tout accès HTTP à ce dossier
+Require all denied
